@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Área de testes DevClub</title>
+</head>
+
+<body>
+  <h1>Área de testes DevClub</h1>
+  <h2>Área de testes DevClub</h2>
+  <h3>Área de testes DevClub</h3>
+  <h4>Área de testes DevClub</h4>
+  <h5>Área de testes DevClub</h5>
+
+  <br> <!-- tag break para criar espaçamento-->
+  <p>Parágrafo simples</p>
+  <p>Parágrafo com <b>negrito</b></p>
+  <p>Parágrafo com <i>itálico</i></p>
+  <p>Parágrafo com <strong>strong</strong></p>
+  <br>
+  <label>
+    título que é dado antes do input (label)
+    <input placeholder="nome dentro do input">
+  </label>
+  <br>
+  <br>
+  <p>tipos de input</p>
+
+  <form action="" method="get">
+    <input placeholder="tipo password" type="password" minlength="5" <!-- nº minimo caracteres -->
+    >
+    <button type="submit">Enviar</button>
+  </form>
+  <br>
+  <br>
+  <form action="" method="get">
+    <input placeholder="tipo number" type="number">
+    <button type="submit">Enviar</button>
+  </form>
+  <br>
+  <br>
+  <form action="" method="get">
+    <input placeholder="tipo URL" type="url">
+    <button type="submit">Enviar</button>
+  </form>
+  <br>
+  <br>
+  <form action="" method="post" enctype="multipart/form-data">
+    <input placeholder="tipo arquivo" type="file" accept="videos/mp4">
+    <button type="submit">Enviar</button>
+  </form>
+  <br>
+  <form action="" method="get">
+    <input type="color" value="#F1F1F1">
+    <button type="submit">Enviar</button>
+  </form>
+  <br>
+  <form action="" method="get">
+    <input type="range" min="0" max="10" value="4" step="0.2">
+    <button type="submit">Enviar</button>
+  </form>
+  <br>
+  <form action="" method="get">
+    <input type="checkbox">
+    <button type="submit">Enviar</button>
+  </form>
+  <br>
+  <form action="" method="get">
+    <input type="radio">
+    <button type="submit">Enviar</button>
+  </form>
+
+  <!--
+        parâmetros aceitos pelo input
+
+    <input 
+    autocomplete="email"
+    autocomplete="name" 
+    autocomplete="tel"  ... etc.
+    autofocus  => ao iniciar a página já focaliza o input (apenas 1 por página)
+    disabled => desabilita o input
+    value="" => dar um valor a ele (nome, título, etc.)
+    readonly => mantém apenas para leitura não permitindo inserção de dados
+    placeholder="" => título de fundo
+    >
+    -->
+  <br>
+  <br>
+  <button>Botão</button>
+  <br>
+  <br>
+  <a href="https://fbr-web-development.netlify.app/">Clique Aqui (link simples mesma aba)</a>
+  <br>
+  <br>
+  <a href="https://fbr-web-development.netlify.app/" target="_blank">Clique Aqui (link simples nova aba)</a>
+  <br>
+  <br>
+  <a href="mailto:edradanovis@gmail.com">Fale comigo (enviar e-mail)</a>
+  <br>
+  <br>
+  <a href="tel:+5535924256707">Me ligue (encaminha para ligação qd acessado do cel)</a>
+  <br>
+  <br>
+  <a href="#fim">Navegar para o fim (ou lugar especificado pelo id)</a>
+  <br>
+  <br>
+  <h2>Título secundário</h2>
+  <br>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/200px-Node.js_logo.svg.png">
+
+  <!--   modos de configuração de imagens
+
+    <img src="./imagem teste.jpg" 
+    alt="imagem-black-sabbath" 
+    height="300px"
+    width="200px"> 
+    
+    <figure>   ***=>semântica correta de uso para melhor entendimento do navegador                                  
+        <img src="./imagem teste.jpg" 
+        alt="imagem-black-sabbath"        => usado para qd houver problemas na imagem aparecer a legenda
+        height="300px" 
+        width="200px">
+        <figcaption>imagem-black-sabbath</figcaption> => legenda abaixo da imagem
+    </figure>
+
+    configuração de vídeos
+
+     
+    <video src="" controls width="" height="" autoplay loop muted poster="">
+    </video>
+    ou
+    <video controls width="" height="" autoplay loop muted poster="">
+        <source src="mp4" >    => parâmetro para que o navegador procure o formato do vídeo caso não rode
+        <source src="mkv" >    
+        <p>mensagen do erro caso ocorra</p>
+    </video>
+    -->
+  <br>
+  <ol> lista ordenada
+
+    <li>exemplo</li>
+    <li>exemplo</li>
+    <li>exemplo</li>
+    <li>exemplo</li>
+  </ol>
+  <ul> lista desordenada
+
+    <li>exemplo</li>
+    <li>exemplo</li>
+    <li>exemplo</li>
+    <li>exemplo</li>
+  </ul>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus ratione eveniet quia dicta ab esse!
+    Asperiores, deserunt iusto laudantium esse architecto accusamus consequatur pariatur adipisci sit, est eum
+    dolorum?</p><!-- "lorem" preenchimento automático para verificação-->
+  <!-- tag <div></div>   organizar diversos elementos-->
+  <!-- tag <span></span> organizar textos-->
+  <!-- AULA 9 "NAVEGANDO ENTRE PASTAS" ** IMPORTANTE **-->
+  <h3 id="fim">Esse é o FIM!!!</h3>
+
+  <table border="2" cellpading="10" bordercolor="green">
+    <!-- tabelas *nao muito utilizado*existem outras ferramentas-->
+    <tr>
+      <th>Tipo</th> <!-- tag colunas-->
+      <th>Descrição</th>
+      <th>Valor</th>
+    </tr>
+
+    <tr>
+      <td>Saúde</td> <!-- tag linhas-->
+      <td>Compra de medicamento</td>
+      <td>R$200,00</td>
+    </tr>
+
+    <tr>
+      <td>Alimentação</td> <!-- tag linhas-->
+      <td>Almoço</td>
+      <td>R$40,00</td>
+    </tr>
+
+    <tr>
+      <td>Combustível</td> <!-- tag linhas-->
+      <td>Troca de óleo</td>
+      <td>R$180,00</td>
+    </tr>
+
+  </table>
+  <br>
+  <br>
+  <iframe src="https://fbr-web-development.netlify.app/" width="600" height="400" frameborder="0">
+  </iframe>
+  <!-- parâmetros para formulários
+    
+    <form
+    action="" => define para qua URL serão enviados os dados, se vazio envia para a mesma URL
+    method="get" => as informações enviadas aparecem na URL
+     ou 
+    method="post" => as informações enviadas permanecem anônimas
+    >
+    </form>
+-->
+
+
+</body>
+
+</html>

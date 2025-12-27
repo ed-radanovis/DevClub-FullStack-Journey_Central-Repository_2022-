@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41px;
+    color: #000000;
+    margin: 128px 0 12px 16px;
+}
+
+.email-address-paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #858585;
+    display: block;
+    text-align: left;
+    margin-left: 16px;
+}
+
+.input-email {
+    display: block;
+    height: 48px;
+    width: 343px;
+    background: #F2F2F7;
+    border-radius: 6px;
+    border: none;
+    margin: 102px auto 12px auto;
+}
+
+.input-password {
+    display: block;
+    height: 48px;
+    width: 343px;
+    background: #F2F2F7;
+    border-radius: 6px;
+    border: none;
+    margin: 0 auto 12px auto;
+}
+
+.forgot-paragraph {
+    display: block;
+    text-align: right;
+    margin-right: 16PX;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #007AFF;
+}
+
+button{
+    display: block;
+    height: 48px;
+    width: 343px;
+    background: #0F0F0F;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    margin: 0 auto 215px auto;
+    font-size: 17px;
+}
+
+.signup-paragraph {
+    text-align: center;
+    font-size: 16px;
+    color: #7D7D7D;
+}
+
+strong {
+    color: #007AFF;
+}
+
+input::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #929292;
+    padding: 13PX 291PX 13PX 14PX;
+}

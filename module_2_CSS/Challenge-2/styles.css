@@ -1,0 +1,67 @@
+*{ 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: grey;
+}
+
+.title-register{
+        position: absolute;
+        font-size: 16px;
+        font-weight: 300;
+        top: -6px;
+        background-color: white;
+        padding: 0 3px;
+}
+
+label{
+    display: block;
+    color: gold;
+    font-size: 20px;
+}
+
+input{
+    margin-bottom: 18px;
+    border: 2px solid blue;
+}
+
+.textarea{
+    margin-bottom: 18px;
+}
+
+.input-senha{
+    display: block;
+    margin-bottom: 18px;
+}
+
+button{
+    display: inline;
+    cursor: pointer;
+}
+
+.button-reset:hover{
+    background-color: blue;
+    width: 80px;
+    height: 35px;
+    color: red;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+
+.button-submit:hover{
+    background-color: gold;
+    width: 110px;
+    height: 35px;
+    color: red;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+
+input::placeholder{
+    color:chartreuse;
+    font-size: 15px;
+}

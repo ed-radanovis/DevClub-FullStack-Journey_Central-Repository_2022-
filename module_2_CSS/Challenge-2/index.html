@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./challenge2.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Montserrat:wght@100;300;500;800 &familia= Nunito:wght@200;400;700;900 & display=swap" rel="stylesheet">
+    <title>Challenge 2</title>
+</head>
+
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+
+        <div class="container">
+
+            <h2 class="title-register">Cadastro</h2>
+
+            <label>Nome</label>
+                <input type="text" name="nome" placeholder="Name" required>
+
+            <label>Email</label>
+                <input type="email" name="email" placeholder="E-mail" required>
+
+            <label>Idade</label>
+                <input type="number" name="idade" min="12" step="1" placeholder="Age" style="width:60px" required>
+
+            <label>Data de Nascimento</label>
+                <input type="date" name="data-nascimento" style="width:170px" required>
+
+            <label>Onde você possui conta:</label>
+                <input type="checkbox" name="conta" value="Instagran">Instagran
+                <input type="checkbox" name="conta" value="Facebook">Facebook
+                <input type="checkbox" name="conta" value="Youtube">Youtube
+
+            <label>Sexo</label>
+                <input type="radio" name="sexo" value="Masculino" required>Masculino
+                <input type="radio" name="sexo" value="Feminino" required>Feminino
+
+            <label>Cor dos Olhos
+                <input type="color" name="cor-dos-olhos" value="#F1F1F1">
+            </label>
+
+            <label>Biografia</label>
+                <textarea  class="textarea" style="height:80px;width:250px;" name="biografia"></textarea>
+
+            <label>Foto do perfil</label>
+                <input type="file" name="foto-do-perfil" accept="image/*">
+
+            <label>Link do Perfil do Facebook</label>
+                <input type="url" name="link" placeholder="Facebook adrress">
+
+            <label>Senha</label>
+                <input class="input-senha" type="password" name="senha" placeholder="Password" minlength="6" maxlength="8" required>
+
+            <button class="button-reset" type="reset" name="botão-limpar">Limpar</button>
+            <button class="button-submit" type="submit" name="botão-enviar">Enviar Dados</button>
+
+        </div>
+
+    </form>
+
+</body>
+
+</html>

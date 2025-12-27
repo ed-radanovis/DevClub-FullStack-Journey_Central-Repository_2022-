@@ -1,0 +1,78 @@
+# ====================================
+# DEPENDENCIES AND BUILD
+# ====================================
+node_modules/
+yarn.lock
+package-lock.json
+
+# ====================================
+# ENVIRONMENT/CONFIGURATIONS
+# ====================================
+.env
+.env.local
+
+# ====================================
+# SYSTEM
+# ====================================
+.DS_Store
+Thumbs.db
+
+# ====================================
+# IDEs AND EDITORS
+# ====================================
+.vscode/
+.idea/
+
+# ====================================
+# COMPLETE PROJECTS (External repos)
+# ====================================
+2_currencyConverter/
+_code_club_projects/
+_fullstack_burgershop/
+
+# ====================================
+# EMBEDDED GIT REPOSITORIES
+# ====================================
+# Catch ALL .git folders in subdirectories (MOST IMPORTANT)
+**/.git/
+
+
+# Code club projects
+_code_club_projects/first-node-project/.git/
+_code_club_projects/first-react-project/first-react-project--back-end/.git/
+_code_club_projects/first-react-project/first-react-project--front-end/.git/
+_code_club_projects/second-node-project/.git/
+
+# Fullstack burgershop
+_fullstack_burgershop/backend/.git/
+_fullstack_burgershop/frontend/.git/
+
+# Additional patterns
+module_*/*/.git/
+module_*/*/*/.git/
+
+# ====================================
+# TEMPORARY/CACHE FILES
+# ====================================
+*.log
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# ====================================
+# OPERATING SYSTEM FILES
+# ====================================
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+_code_club_projects/
+_fullstack_burgershop/

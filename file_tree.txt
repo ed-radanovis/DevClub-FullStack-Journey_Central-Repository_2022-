@@ -1,0 +1,226 @@
+File Tree: DevClub
+Root path: c:\Users\_development\DevClub
+
+────────────────────────────────────────────────────────────────────────────────
+
+├── 📁 _first_landing_page_for_start/
+│   ├── 📁 Assets/
+│   ├── 📝 README.md
+│   ├── 🖼️ imag proj 1.jpg
+│   ├── 🌐 index.html
+│   └── 🎨 styles.css
+├── 📁 _github/
+├── 📁 module_1_HTML/
+│   ├── 📁 challenge_1/
+│   │   └── 🌐 desafio1.html
+│   ├── 📁 challenge_2/
+│   │   └── 📝 README.md
+│   ├── 📁 challenge_2_temp/
+│   │   ├── 📁 Assets/
+│   │   ├── 📝 README.md
+│   │   └── 🌐 desafio2.html
+│   ├── 📁 folder for testing/
+│   │   └── 🌐 index.html
+│   └── 📁 materials/
+├── 📁 module_2_CSS/
+│   ├── 📁 CSS-Project-1-Figma/
+│   │   ├── 📁 Assets/
+│   │   │   └── 📦 yoga app front Login and Welcome page (Community).zip
+│   │   ├── 🌐 index.html
+│   │   └── 🎨 styles.css
+│   ├── 📁 CSS-Project-2-Figma/
+│   │   ├── 📁 assets/
+│   │   ├── 🌐 index.html
+│   │   └── 🎨 styles.css
+│   ├── 📁 Challenge-1/
+│   │   ├── 🌐 index.html
+│   │   └── 🎨 styles.css
+│   ├── 📁 Challenge-2/
+│   │   ├── 🌐 index.html
+│   │   └── 🎨 styles.css
+│   ├── 📁 Challenge-3/
+│   │   ├── 🌐 index.html
+│   │   └── 🎨 styles.css
+│   └── 📁 materials/
+│       ├── 🖼️ various_screenshots
+├── 📁 module_3_GIT/
+│   ├── 📁 example of cloning/
+│   │   ├── 📁 frontend-take-home-assignment/
+│   │   │   └── 📝 README.md
+│   │   └── 📁 frontend-take-home-assignment_temp/
+│   │       ├── 📁 cypress/
+│   │       │   ├── 📁 integration/
+│   │       │   │   └── 📄 home.spec.ts
+│   │       │   ├── 📁 plugins/
+│   │       │   │   └── 📄 index.js
+│   │       │   ├── 📁 support/
+│   │       │   │   └── 📄 index.ts
+│   │       │   ├── 📁 videos/
+│   │       │   │   └── 🎬 home.spec.ts.mp4
+│   │       │   └── ⚙️ tsconfig.json
+│   │       ├── 📁 mockups/
+│   │       ├── 📁 spec/
+│   │       │   ├── 📁 components/
+│   │       │   │   ├── 📄 Button.spec.tsx
+│   │       │   │   ├── 📄 CardAmount.spec.tsx
+│   │       │   │   ├── 📄 Dashboard.spec.tsx
+│   │       │   │   ├── 📄 DatePicker.spec.tsx
+│   │       │   │   ├── 📄 Header.spec.tsx
+│   │       │   │   ├── 📄 HeaderDashboard.spec.tsx
+│   │       │   │   ├── 📄 Input.spec.tsx
+│   │       │   │   ├── 📄 Label.spec.tsx
+│   │       │   │   └── 📄 MainDate.spec.tsx
+│   │       │   ├── 📁 containers/
+│   │       │   │   └── 📄 Home.spec.tsx
+│   │       │   ├── 📁 hooks/
+│   │       │   │   └── 📄 GoalCalculation.spec.tsx
+│   │       │   ├── 📁 utils/
+│   │       │   │   ├── 📄 currencyFormatter.spec.ts
+│   │       │   │   └── 📄 getMonth.spec.ts
+│   │       │   ├── 📄 App.test.tsx
+│   │       │   └── 📄 setup.js
+│   │       ├── 📁 src/
+│   │       │   ├── 📁 @types/
+│   │       │   │   └── 📄 declaration.d.ts
+│   │       │   ├── 📁 components/
+│   │       │   │   ├── 📁 ArrowButton/
+│   │       │   │   │   ├── 📄 index.tsx
+│   │       │   │   │   └── 📄 styles.ts
+│   │       │   │   ├── 📁 Button/
+│   │       │   │   │   ├── 📄 index.tsx
+│   │       │   │   │   └── 📄 styles.ts
+│   │       │   │   ├── 📁 CardAmount/
+│   │       │   │   │   ├── 📄 card.interface.ts
+│   │       │   │   │   ├── 📄 index.tsx
+│   │       │   │   │   └── 📄 styles.ts
+│   │       │   │   ├── 📁 Dashboard/
+│   │       │   │   │   ├── 📁 HeaderDashboard/
+│   │       │   │   │   │   ├── 📄 index.tsx
+│   │       │   │   │   │   └── 📄 styles.ts
+│   │       │   │   │   ├── 📄 index.tsx
+│   │       │   │   │   └── 📄 styles.ts
+│   │       │   │   ├── 📁 DatePicker/
+│   │       │   │   │   ├── 📁 MainDate/
+│   │       │   │   │   │   ├── 📄 index.tsx
+│   │       │   │   │   │   └── 📄 styles.ts
+│   │       │   │   │   ├── 📄 index.tsx
+│   │       │   │   │   └── 📄 styles.ts
+│   │       │   │   ├── 📁 Header/
+│   │       │   │   │   ├── 📄 index.tsx
+│   │       │   │   │   └── 📄 styles.ts
+│   │       │   │   ├── 📁 Input/
+│   │       │   │   │   ├── 📄 index.tsx
+│   │       │   │   │   ├── 📄 input.interface.ts
+│   │       │   │   │   └── 📄 styled.tsx
+│   │       │   │   ├── 📁 Label/
+│   │       │   │   │   ├── 📄 index.tsx
+│   │       │   │   │   └── 📄 styled.ts
+│   │       │   │   └── 📄 index.ts
+│   │       │   ├── 📁 containers/
+│   │       │   │   └── 📁 Home/
+│   │       │   │       ├── 📄 index.tsx
+│   │       │   │       └── 📄 styles.ts
+│   │       │   ├── 📁 hooks/
+│   │       │   │   ├── 📄 goalCalculation.tsx
+│   │       │   │   └── 📄 index.tsx
+│   │       │   ├── 📁 icons/
+│   │       │   │   ├── 📄 Arrow.tsx
+│   │       │   │   ├── 📄 Logo.tsx
+│   │       │   │   ├── 📄 Money.tsx
+│   │       │   │   ├── 📄 favicon.ico
+│   │       │   │   └── 🖼️ house.png
+│   │       │   ├── 📁 styles/
+│   │       │   │   ├── 📄 global.ts
+│   │       │   │   ├── 📄 styled.d.ts
+│   │       │   │   └── 📄 theme.ts
+│   │       │   ├── 📁 utils/
+│   │       │   │   ├── 📄 currencyFormatter.ts
+│   │       │   │   ├── 📄 getMonth.ts
+│   │       │   │   └── 📄 index.ts
+│   │       │   ├── 📄 App.tsx
+│   │       │   ├── 🌐 index.html
+│   │       │   └── 📄 index.tsx
+│   │       ├── 📝 README.md
+│   │       ├── 📄 assetsTransformer.js
+│   │       ├── ⚙️ cypress.json
+│   │       ├── 📄 jest.config.js
+│   │       ├── ⚙️ package.json
+│   │       └── ⚙️ tsconfig.json
+│   └── 📁 materials/
+│       ├── 🖼️ various_screenshots
+├── 📁 module_4_JavaScript/
+│   ├── 📁 JS web/
+│   │   ├── 📁 1_SelectingElements/
+│   │   │   ├── 🌐 selectingElements.html
+│   │   │   ├── 📄 selectingElements.js
+│   │   │   ├── 🌐 workingWithEvents.html
+│   │   │   └── 📄 workingWithEvents.js
+│   │   └── 📁 materials/
+│   │       ├── 🌐 example_connecting.html
+│   │       ├── 🖼️ various_screenshots
+│   ├── 📁 exercises/
+│   │   ├── 📄 exercises1.js
+│   │   ├── 📄 exercises2.js
+│   │   ├── 📄 exercises3.js
+│   │   ├── 📄 exercises4_mapchallenge.js
+│   │   ├── 📄 exercises5_filterchallenge.js
+│   │   ├── 📄 exercises6_reducechallenge.js
+│   │   └── 📄 exercises7_map_filter_reducechallenge.js
+│   └── 📁 explanations/
+│       ├── 📄 calculatorwithfunctions.js
+│       ├── 📄 explanationspt1.js
+│       ├── 📄 explanationspt2.js
+│       └── 📄 explanationspt3.js
+├── 📁 module_5_Nodejs/
+│   ├── 📁 1_concepts_and_creation_of_the_environment/
+│   │   ├── 🖼️ various_screenshots
+│   ├── 📁 2_first_Node_project/
+│   │   ├── 🖼️ various_screenshots
+│   └── 📁 3_challenge_Node/
+│       ├── 🖼️ various_screenshots
+├── 📁 module_6_debugs/
+│   ├── 🖼️ various_screenshots
+├── 📁 module_7_Gitignore/
+│   ├── 🖼️ various_screenshots
+├── 📁 module_8_JavaScript_advanced/
+│   ├── 📁 1_REST_and_RESTful_API_concepts/
+│   │   ├── 🖼️ various_screenshots
+│   ├── 📁 2_Modules_in_Node/
+│   │   ├── 📄 index.js
+│   │   ├── 📄 multi.js
+│   │   └── 📄 sum.js
+│   ├── 📁 3_THIS_and_SCOPES/
+│   │   ├── 📄 import.js
+│   │   ├── 📄 multiplesFunctions.js
+│   │   └── 📄 this.js
+│   ├── 📁 4_TRY_CATCH/
+│   │   ├── 🖼️ various_screenshots
+│   ├── 📁 5_PROMISES_and_ASYNC_AWAIT/
+│   │   ├── 🖼️ screenshot_1.png
+│   │   └── 🖼️ screenshot_2.png
+│   └── 📁 6_CLASS/
+│       └── 📄 class.js
+├── 📁 module_9_CSS_advanced/
+│   ├── 📁 display_flex/
+│   │   ├── 🖼️ various_screenshots
+│   │   ├── 🌐 index.html
+│   │   └── 🎨 styles.css
+│   └── 📁 display_grid/
+│       ├── 📁 example_1/
+│       │   ├── 🌐 index.html
+│       │   └── 🎨 styles.css
+│       ├── 📁 example_2/
+│       │   ├── 🌐 index-layout.html
+│       │   └── 🎨 styles-layout.css
+│       ├── 📁 example_3/
+│       │   ├── 🌐 index-layout.html
+│       │   └── 🎨 styles-layout.css
+│       └── 📁 example_4/
+│           ├── 🌐 index.html
+│           └── 🎨 styles.css
+├── 📁 module_10_React/
+│   ├── 📁 1_concepts_react_and_react_native/
+│   ├── 🖼️ various_screenshots
+├── ⚙️ .gitignore
+├── 📝 README.md
+└── 📄 file_tree.txt

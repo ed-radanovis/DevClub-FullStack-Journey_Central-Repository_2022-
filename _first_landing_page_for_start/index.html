@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href =" https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap " rel =" folha de estilo " >
+
+    <title>F.B.R. Desenvolvimento Web</title>
+</head>
+
+<body>
+    <div class="caixa-superior">
+        <div class="cabecalho">
+            <h2 class="titulo-cabecalho">F.B.R. Web Development</h2>
+            <a href="#titulo-inferior" class="link-cabecalho">Quem somos</a>
+            <a href="#titulo-meio" class="link-cabecalho">Serviços</a>
+            <a class="link-cabecalho" onclick="chameoformulario()">Contatos</a>
+        </div>
+
+        <h1>F.B.R. Web Development</h1>
+
+        <form id="formulario-contato" action="https://formsubmit.co/edradanovis@gmail.com" method="POST">
+
+            <h3 class="titulo-formulario">Entre em contato</h3>
+            <label>
+                Nome
+                <input type="text" name="Nome" placeholder="Digite seu nome" required />
+            </label>
+
+            <label>
+                E-mail
+                <input type="email" name="email" placeholder="Digite seu e-mail" required />
+            </label>
+
+            <label>
+                WhatsApp
+                <input type="tel" name="telefone" placeholder="Digite seu telefone" required />
+            </label>
+
+            <label>
+                Fale conosco
+                <textarea name="info" placeholder="Tire sua dúvida AQUI"></textarea>
+            </label>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <h2 id="titulo-meio">Nossos serviços</h2>
+
+    <div class="caixa-central">
+        <div class="card">
+            <h3 class="titulo-card">Equipe especializada</h3>
+            <ul>
+                <li>Sites institucionais</li>
+                <li>Lojas virtuais</li>
+                <li>E-commerce</li>
+                <li>WordPress</li>
+                <li>PostgreSQL / My SQL</li>
+                <li>HTML5/CSS3/JavaScript</li>
+                <li>Imagens com direitos de uso</li>
+
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3 class="titulo-card">Processo de criação</h3>
+            <ul>
+                <li>Kick off</li>
+                <li>Arquitetura</li>
+                <li>Conteúdo</li>
+                <li>Layout</li>
+                <li>Testes</li>
+                <li>Treinamento</li>
+
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3 class="titulo-card">User experience</h3>
+            <ul>
+                <li>Padrões de interação de acordo com o contexto</li>
+                <li>Incorporação da necessidade do usuário no design</li>
+                <li>Interface intuitiva</li>
+                <li>Otimização das informações aos usuários</li>
+                <li>Consistência geral do sistema</li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="caixa-inferior">
+        <h2 id="titulo-inferior">Sobre nós</h2>
+        <p class="paragrafo-inferior">Nosso foco está em desenvolvimento de websites, lojas virtuais, soluções em Google
+            Ads e Facebook Ads, desenvolvimento de marca e identidade visual, experiência do usuário e consultoria
+            voltada para a área de digitalização corporativa.
+            A sua empresa precisa decolar no meio digital? Venha com a gente, nós temos a solução para a sua empresa.
+            Transformamos Dados em Inovações Inteligentes. Geramos insights estratégicos para o seu negócio.
+            Utilizamos os dados aliados a inteligência para que a inovação aconteça.
+        </p>
+    </div>
+</body>
+<script>
+
+let formulario = document.getElementById("formulario-contato")
+
+
+function chameoformulario(){
+    formulario.className = "mostrar-formulario"
+}
+
+</script>
+</html>
