@@ -25,14 +25,14 @@
 
 > ### 📚 About the course
 >
-> **Institution :** DevClub  
-> **Format :** Practical Online Course
-> **Duration :** 14 weeks ( 206 hours total )
-> **Certificate :** Verified Certificate available  
-> **Difficulty :** Introductory to the professional
-> **Languages & Frameworks :** **_[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)_** , **_[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)_** , **_[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)_** , **_[React](https://react.dev/)_** , **_[Node.js](https://nodejs.org)_** , **_[SQL](https://pt.wikipedia.org/wiki/SQL)_** and more.
-> **Lead Instructor :** Rodolfo Mori
-> **Methodology :** focused on `real projects` , with live mentoring, technical support, and an active community, ensuring that the student graduates prepared for the demands of the job market.
+> **Institution :** DevClub<br>
+> **Format :** Practical Online Course<br>
+> **Duration :** 14 weeks ( 206 hours total )<br>
+> **Certificate :** Verified Certificate available<br>
+> **Difficulty :** Introductory to the professional<br>
+> **Languages & Frameworks :** **_[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)_** , **_[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)_** , **_[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)_** , **_[React](https://react.dev/)_** , **_[Node.js](https://nodejs.org)_** , **_[SQL](https://pt.wikipedia.org/wiki/SQL)_** and more<br>
+> **Lead Instructor :** Rodolfo Mori<br>
+> **Methodology :** focused on `real projects` , with live mentoring, technical support, and an active community, ensuring that the student graduates prepared for the demands of the job market
 
 <br>
 
