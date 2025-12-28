@@ -434,7 +434,7 @@ I'm grateful for its practical methodology and persons envolved support, which w
     </td>
    <td align="center">
       <a href="https://edwebdev.vercel.app/">
-        <img src="/_github/Logo_EWD.png" width="225px" height="200px" alt="Logo EWD Apex"/><br>
+        <img src="/_github/Logo_EWD.png" width="200px" height="200px" alt="Logo EWD Apex"/><br>
         <sub><b>Ed Web Dev</b></sub><br>
       </a>
     </td>
